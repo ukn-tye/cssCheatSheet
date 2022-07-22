@@ -1,0 +1,72 @@
+:root {
+    --red: hsl(0, 78%, 62%);
+    --lightyBlue: hsl(180, 62%, 55%);
+    --orangeYellow: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --relDarkBlue: hsl(234, 12%, 34%);
+    --grayBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    --weight1: 200;
+    --weight2: 400;
+    --weight3: 600;
+}
+
+header {
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px var(--grayBlue);
+    padding: 3px;
+    margin: 20px;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--veryLightGray);
+}
+
+.center-text {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p {
+    color: var(--grayBlue)
+}
+
+h2 {
+    color: var(--relDarkBlue);
+    font-weight: var(--weight3);
+}
+
+.box {
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px var(--grayBlue);
+    padding: 30px;
+    margin: 20px;  
+}
+
+.red {
+    border-top: 3px solid var(--red);
+}
+
+.dark {
+    border-top: 3px solid var(--relDarkBlue)
+}
+
+.light-blue {
+    border-top: 3px solid var(--lightyBlue);
+}
+
+.orange {
+    border-top: 3px solid var(--orangeYellow);
+}
+
+.blue {
+    border-top: 3px solid var(--blue);
+}
+
